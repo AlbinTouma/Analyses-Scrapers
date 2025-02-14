@@ -1,0 +1,14 @@
+un_consolidated_sanctions:
+ queries:
+  - csv_url: './xxx.csv'
+    entities:
+      member:
+        schema: Person
+        keys:
+          - DATAID
+        properties:
+          name:
+           column: FULL_NAME
+          birthDate:
+            column: 
+
